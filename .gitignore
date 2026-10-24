@@ -1,0 +1,15 @@
+# build outputs
+seam_cuda
+tests/dp_emulation_test
+*.o
+
+# third-party headers (fetched by scripts/get_deps.sh)
+stb_image.h
+stb_image_write.h
+
+# run outputs and profiler reports
+output.jpg
+out.png
+*.nsys-rep
+*.sqlite
+*.ncu-rep
